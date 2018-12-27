@@ -10,7 +10,7 @@ from datetime import timezone
 import threading
 import re
 
-file = open('/home/pi/Desktop/botstuff/gdpssecret.txt', 'r')
+file = open('/botstuff/gdpssecret.txt', 'r')
 gdpssecret = file.read()
 
 def transferpermsMultithread(members,members2):
