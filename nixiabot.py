@@ -10,7 +10,7 @@ from datetime import timezone
 import threading
 import re
 
-file = open('/botstuff/gdpssecret.txt', 'r')
+file = open('./botstuff/gdpssecret.txt', 'r')
 gdpssecret = file.read()
 
 def transferpermsMultithread(members,members2):
@@ -174,5 +174,5 @@ async def on_message(message):
             finaltime = str(timeafterlag - timebeforelag)
             await client.send_message(message.channel, "done, " + finaltime + "s")
 
-file = open('/home/pi/Desktop/botstuff/token.txt', 'r')
+file = open('./botstuff/token.txt', 'r')
 client.run(file.read())
