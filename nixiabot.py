@@ -10,6 +10,8 @@ from datetime import timezone
 import threading
 import re
 
+client = discord.Client()
+
 file = open('./botstuff/gdpssecret.txt', 'r')
 gdpssecret = file.read()
 
