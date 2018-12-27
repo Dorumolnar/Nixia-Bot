@@ -1,1 +1,1 @@
-worker: python red.py
+worker: python nixiabot.py
