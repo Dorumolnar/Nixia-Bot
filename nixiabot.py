@@ -176,5 +176,4 @@ async def on_message(message):
             finaltime = str(timeafterlag - timebeforelag)
             await client.send_message(message.channel, "done, " + finaltime + "s")
 
-file = open('./botstuff/token.txt', 'r')
-client.run(file.read())
+client.run("NDI5OTc2NDQ3MTEzODg3NzU2.DwbCdw.JxBe7aLL7ItcHlskgOIBvO7iYYA")
